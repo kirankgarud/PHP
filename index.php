@@ -51,7 +51,7 @@ if($method == 'POST')
 	
 	$response = new \stdClass();
 	
-	$response->fulfillmentText = $speech;
+	$response->speech = $speech;
 	
 	$response->displayText = $speech;
 	
